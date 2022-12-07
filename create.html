@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>Node.js CRUD</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 합쳐지고 최소화된 최신 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./public/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+ 
+     <!-- 홈버튼-->
+     <div class="row post-font2">
+         <div class="mid p-5">
+            <a class="btn btn-dark" href="/">홈으로</a>
+         </div>
+     </div>
+ 
+     <!-- 제목-->
+     <form action="/create" method="POST">
+     <div class="row">
+
+         <div class="col-md-3">
+         </div>
+            <div class="col-md-6 p-5">
+ 
+                <label for="title">제목</label>
+                <input type="text" name="title" id="title" class="form-control mt-4 mb-2" placeholder="제목을 입력해주세요.">
+             
+         </div>
+         
+     </div>
+ 
+     <!-- 내용-->
+     <div class="row">
+
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6 p-5">
+ 
+            <label for="discription">내용</label>
+            <textarea class="form-control" rows="10" name="description" id="description" placeholder="내용을 입력해주세요."></textarea>
+         
+        </div>
+ 
+     <!-- 저장-->
+     <div class="row">
+
+         <div class="col-md-3">
+         </div>
+ 
+         <div class="col-md-6 "> 
+             <div class="row">
+                 <div clsss="col">
+
+                     <div class="p-3">
+                        <button type="submit" class="btn btn-secondary mb-3">저장하기</button>
+                     </div>
+
+                 </div>
+             </div>
+         </div>
+     </div> 
+     
+     
+     </form>
+    </div> 
+
+  <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+</body>
+</html>

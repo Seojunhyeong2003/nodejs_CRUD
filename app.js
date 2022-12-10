@@ -18,6 +18,6 @@ app.use(postRouter);
        
 
 //서버 가동
-app.listen(3000,function(){
-    console.log("서버가동 : http://127.0.0.1:3000") 
+app.listen(8080,function(){
+    console.log("서버가동 : 포트8080") 
 });   
